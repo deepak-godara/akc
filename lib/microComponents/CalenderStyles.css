@@ -1,0 +1,65 @@
+.rdp {
+  border-radius: 0.625rem;
+  background: transparent linear-gradient(90deg, #4883c4 0%, #1b67bc 100%) 0% 0%
+    no-repeat padding-box;
+  font-size: 16px;
+  min-width: 256px;
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 8px;
+}
+.rdp-caption {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 16px;
+}
+.rdp-table {
+  /* width: calc(100% - 16px); */
+  margin: 0px 16px 0px 16px;
+}
+.rdp-caption_label {
+  text-align: right;
+  color: #ffffff;
+  font-weight: 700;
+}
+.rdp-button_reset {
+  background: none;
+}
+.rdp-cell {
+  min-width: 0;
+  text-align: right;
+}
+.rdp-head_cell {
+  text-align: center;
+  font-weight: 600;
+  color: #e6ebf0;
+  width: 32px;
+}
+.rdp-nav_button {
+  width: auto;
+  height: 14.4px;
+}
+.rdp-nav_button svg {
+  height: 100%;
+  width: 100%;
+  color: #f2f5f8;
+}
+.rdp-button.rdp-day {
+  border-radius: 0.3125rem;
+  color: #f2f5f8;
+  margin: 1.6px;
+  width: 32px;
+}
+.rdp-button_reset.rdp-button.rdp-day:hover {
+  background: #21295c;
+  color: #ffffff;
+}
+.rdp-button_reset.rdp-button.rdp-day_today {
+  background: #f2f5f855;
+  color: #ffffff;
+}
+.rdp-button_reset.rdp-button.rdp-day.rdp-day_selected {
+  background: #36cc1c;
+  color: #ffffff;
+}

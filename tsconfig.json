@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@images/*": ["src/images/*"],
+      "@styles/*": ["src/styles/*"],
+      "@app/*": ["src/app/*"],
+      "@lib/*": ["lib/*"],
+      "@API/*": ["src/API/*"]
+    },
+    "target": "es2016",
+    "module": "es6",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "preserve",
+    "moduleResolution": "Node"
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts", "lib/**/*.tsx", "lib/**/*.ts"]
+}

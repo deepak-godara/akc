@@ -1,0 +1,9 @@
+.flatpickr-calendar {
+  width: 100%;
+}
+#editing-view-port {
+  user-select: none;
+}
+.flatpickr-wrapper {
+  width: 100%;
+}
